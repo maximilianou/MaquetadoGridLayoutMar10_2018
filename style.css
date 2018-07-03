@@ -8,13 +8,28 @@
 body{
   background-color: yellow;
   font-size: large;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);  
+  
+  
 }
 header{
   background-color: orange;
+  font-family: 'Snippet', sans-serif;
+
+  grid-column: 1 / -1;  
+  
 }
 footer{
   background-color: red;
   color: white;
+  font-family: 'Sniglet', cursive;
+  
+  grid-column: 1 / -1;  
+  
 }
 section{
   background-color: gray;
