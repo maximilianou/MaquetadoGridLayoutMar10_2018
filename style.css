@@ -19,7 +19,7 @@ body{
 header{
   background-color: orange;
   font-family: 'Snippet', sans-serif;
-
+  text-align: center;
   grid-column: 1 / -1;  
   
 }
@@ -32,10 +32,14 @@ footer{
   
 }
 section{
-  background-color: gray;
+  background-color: aqua;
+  grid-column-start: 2;  
+  grid-column-end: 4;  
 }
 article{
   background-color: green;
+  border-radius: 10px;
+  padding: 10px;
 }
 nav{
   background-color: seagreen;
